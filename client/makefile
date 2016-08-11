@@ -1,6 +1,7 @@
 
-SRC=server/server.cpp
-DES=server
+SRC=client.cpp
+DES=client
+
 
 FLAG=-g
 $(DES):$(SRC)
@@ -8,6 +9,6 @@ $(DES):$(SRC)
 	
 .PHONY:clean
 clean:
-	rm -rf server
+	rm -rf client
 
 
